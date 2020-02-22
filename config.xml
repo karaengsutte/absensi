@@ -20,11 +20,11 @@
 
     <platform name="android">
         <allow-intent href="market:*" />
-        <icon density="mdpi" src="./res/icon/android/mipmap-xxxmdpi/eabsensimipa_launcher.png" />
-        <icon density="hdpi" src="./res/icon/android/mipmap-xxxhdpi/eabsensimipa_launcher.png" />
-        <icon density="xhdpi" src="./res/icon/android/mipmap-xxxhdpi/eabsensimipa_launcher.png" />
-        <icon density="xxhdpi" src="./res/icon/android/mipmap-xxxhdpi/eabsensimipa_launcher.png" />
-        <icon density="xxxhdpi" src="./res/icon/android/mipmap-xxxhdpi/eabsensimipa_launcher.png" />
+        <icon density="mdpi" src="../res/icon/android/mipmap-xxxmdpi/eabsensimipa_launcher.png" />
+        <icon density="hdpi" src="../res/icon/android/mipmap-xxxhdpi/eabsensimipa_launcher.png" />
+        <icon density="xhdpi" src="../res/icon/android/mipmap-xxxhdpi/eabsensimipa_launcher.png" />
+        <icon density="xxhdpi" src="../res/icon/android/mipmap-xxxhdpi/eabsensimipa_launcher.png" />
+        <icon density="xxxhdpi" src="../res/icon/android/mipmap-xxxhdpi/eabsensimipa_launcher.png" />
         
 	   <preference name="android-minSdkVersion" value="14" />
 	   <preference name="android-targetSdkVersion" value="29" /> 
@@ -33,7 +33,7 @@
 
     <platform name="ios">
 			  <preference name="Orientation" value="all" />
-			  <icon src="./res/icon/ios/eabsensimipa_launcher.png" platform="ios" width="180" height="180" />
+			  <icon src="../res/icon/ios/eabsensimipa_launcher.png" platform="ios" width="180" height="180" />
     </platform>
 
 	<plugin name="cordova-plugin-device" spec="2.0.3" />

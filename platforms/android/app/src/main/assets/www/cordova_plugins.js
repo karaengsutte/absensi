@@ -673,14 +673,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "cordova-plugin-save-image.SaveImage",
-      "file": "plugins/cordova-plugin-save-image/www/SaveImage.js",
-      "pluginId": "cordova-plugin-save-image",
-      "clobbers": [
-        "cordova.plugins.imagesaver"
-      ]
-    },
-    {
       "id": "es6-promise-plugin.Promise",
       "file": "plugins/es6-promise-plugin/www/promise.js",
       "pluginId": "es6-promise-plugin",
@@ -709,6 +701,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "merges": [
         "window.plugins.uniqueDeviceID"
       ]
+    },
+    {
+      "id": "cordova-plugin-save-image.SaveImage",
+      "file": "plugins/cordova-plugin-save-image/www/SaveImage.js",
+      "pluginId": "cordova-plugin-save-image",
+      "clobbers": [
+        "cordova.plugins.imagesaver"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -726,12 +726,12 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-local-notification": "0.9.0-beta.2",
     "cordova-plugin-media-capture": "3.0.3",
     "cordova-plugin-network-information": "2.0.2",
-    "cordova-plugin-save-image": "0.3.0",
     "es6-promise-plugin": "4.2.2",
     "cordova-plugin-screen-orientation": "3.0.2",
     "cordova-plugin-tts": "0.2.3",
     "cordova-plugin-vibration": "3.1.1",
     "cordova-plugin-whitelist": "1.3.3",
-    "cordova-unique-device-id": "1.3.2"
+    "cordova-unique-device-id": "1.3.2",
+    "cordova-plugin-save-image": "0.3.0"
   };
 });
