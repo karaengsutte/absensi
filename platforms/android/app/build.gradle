@@ -98,6 +98,10 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
+apply from: "../cordova-plugin-badge/absensifmipa-badge.gradle"
+apply from: "../cordova-plugin-googlemaps/absensifmipa-tbxml-android.gradle"
+apply from: "../cordova-plugin-googlemaps/absensifmipa-apikey.gradle"
+apply from: "../cordova-plugin-local-notification/absensifmipa-localnotification.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
@@ -293,6 +297,11 @@ dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
+    implementation "com.android.support:support-v4:27.+"
+    implementation "com.google.android.gms:play-services-maps:15.0.1"
+    implementation "com.google.android.gms:play-services-location:15.0.1"
+    implementation "com.android.support:support-core-utils:27.+"
+    implementation "com.android.support:support-v4:26.+"
     // SUB-PROJECT DEPENDENCIES END
 }
 
