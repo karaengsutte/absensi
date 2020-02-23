@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ahmar.id.absensifmipa" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 <!--
-<widget id="absensifmipa.ahmar.id" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ahmar.id.absensifmipa" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 -->
+<widget id="absensifmipa.ahmar.id" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>eAbsensi FMIPA</name>
     <description>
         Presensi Kehadiran FMIPA UNM
@@ -67,7 +67,7 @@
         <!-- iPad Pro -->
         <icon src="./res/icon/ios/167.png" width="167" height="167" />
 		<icon src="./res/icon/ios/1024.jpg" width="1024" height="1024" />
-	    <preference name="phonegap-version" value="cli-9.0.0" />
+	    <!-- <preference name="phonegap-version" value="cli-9.0.0" /> -->
 		<preference name="deployment-target" value="7.0" />
     </platform>
 	
